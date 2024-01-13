@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_article_template_definition">
+    <kb_article_template_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <article_template display_value="SNOW Dev Use Case Solutions">b8c929032f82311061e12aa62799b67d</article_template>
+        <collapsible/>
+        <column_label>Filed Name</column_label>
+        <column_type>html</column_type>
+        <field_style>border:25px solid green;font-size:2rem;</field_style>
+        <heading_style>background-color:red; font-size:24px; font-family:Arial; color:white;</heading_style>
+        <mandatory>false</mandatory>
+        <order/>
+        <preview_text><![CDATA[<p>Here is some random text</p>]]></preview_text>
+        <sys_class_name>kb_article_template_definition</sys_class_name>
+        <sys_created_by>nmaharjan</sys_created_by>
+        <sys_created_on>2023-10-27 09:47:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>a0f921432f82311061e12aa62799b6d4</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Filed Name</sys_name>
+        <sys_package display_value="DMV" source="x_308504_dmv">71294d392fd5b11061e12aa62799b618</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DMV">71294d392fd5b11061e12aa62799b618</sys_scope>
+        <sys_update_name>kb_article_template_definition_a0f921432f82311061e12aa62799b6d4</sys_update_name>
+        <sys_updated_by>nmaharjan</sys_updated_by>
+        <sys_updated_on>2023-10-27 10:17:54</sys_updated_on>
+        <table_column>x_308504_dmv_u_kb_use_case</table_column>
+    </kb_article_template_definition>
+</record_update>

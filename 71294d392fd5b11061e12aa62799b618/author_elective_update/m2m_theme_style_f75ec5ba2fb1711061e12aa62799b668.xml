@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_theme_style">
+    <m2m_theme_style action="DELETE">
+        <applicability display_value="Admin">d4e6a3160f223010e28740c1df767e0c</applicability>
+        <order>10</order>
+        <style display_value="DMV Style">3c6e81fa2fb1711061e12aa62799b65e</style>
+        <sys_class_name>m2m_theme_style</sys_class_name>
+        <sys_created_by>nmaharjan</sys_created_by>
+        <sys_created_on>2023-10-14 03:05:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f75ec5ba2fb1711061e12aa62799b668</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="DMV" source="x_308504_dmv">71294d392fd5b11061e12aa62799b618</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DMV">71294d392fd5b11061e12aa62799b618</sys_scope>
+        <sys_update_name>m2m_theme_style_f75ec5ba2fb1711061e12aa62799b668</sys_update_name>
+        <sys_updated_by>nmaharjan</sys_updated_by>
+        <sys_updated_on>2023-10-14 03:09:14</sys_updated_on>
+        <theme display_value="DMV Theme">8eec8d3a2fb1711061e12aa62799b629</theme>
+    </m2m_theme_style>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DMV">71294d392fd5b11061e12aa62799b618</application>
+        <file_path/>
+        <instance_id>1db582b8db7e80182f68c59705961921</instance_id>
+        <instance_name>dev99158</instance_name>
+        <name>m2m_theme_style_f75ec5ba2fb1711061e12aa62799b668</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_theme_style"><m2m_theme_style action="INSERT_OR_UPDATE"><applicability display_value="Admin">d4e6a3160f223010e28740c1df767e0c</applicability><order>10</order><style display_value="DMV Style">3c6e81fa2fb1711061e12aa62799b65e</style><sys_class_name>m2m_theme_style</sys_class_name><sys_created_by>nmaharjan</sys_created_by><sys_created_on>2023-10-14 03:05:52</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f75ec5ba2fb1711061e12aa62799b668</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="DMV" source="x_308504_dmv">71294d392fd5b11061e12aa62799b618</sys_package><sys_policy/><sys_scope display_value="DMV">71294d392fd5b11061e12aa62799b618</sys_scope><sys_update_name>m2m_theme_style_f75ec5ba2fb1711061e12aa62799b668</sys_update_name><sys_updated_by>nmaharjan</sys_updated_by><sys_updated_on>2023-10-14 03:09:14</sys_updated_on><theme display_value="DMV Theme">8eec8d3a2fb1711061e12aa62799b629</theme></m2m_theme_style></record_update>]]></payload>
+        <payload_hash>354764402</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>3d294d392fd5b11061e12aa62799b632</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nmaharjan</sys_created_by>
+        <sys_created_on>2023-10-14 03:09:14</sys_created_on>
+        <sys_id>f242d9be2fb1711061e12aa62799b609</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b2c28d13f0000001</sys_recorded_at>
+        <sys_updated_by>nmaharjan</sys_updated_by>
+        <sys_updated_on>2023-10-14 03:09:14</sys_updated_on>
+        <type>UX Theme Style</type>
+        <update_guid>aa42d9be3bb17110a361d5a57f91b108</update_guid>
+        <update_guid_history>aa42d9be3bb17110a361d5a57f91b108:354764402,1981d1be02b17110a4a4e0386b90e3a9:1198922891</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">30135dfe2fb1711061e12aa62799b609</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nmaharjan</sys_created_by>
+        <sys_created_on>2023-10-14 03:12:39</sys_created_on>
+        <sys_db_object display_value="" name="m2m_theme_style">m2m_theme_style</sys_db_object>
+        <sys_id>1afa0aba0cc342dc8684cf25b50505c1</sys_id>
+        <sys_metadata>f75ec5ba2fb1711061e12aa62799b668</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="DMV" source="x_308504_dmv">71294d392fd5b11061e12aa62799b618</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DMV">71294d392fd5b11061e12aa62799b618</sys_scope>
+        <sys_scope_delete display_value="">1a46dbecd6d54c00839a88f2b2c40000</sys_scope_delete>
+        <sys_update_name>m2m_theme_style_f75ec5ba2fb1711061e12aa62799b668</sys_update_name>
+        <sys_update_version display_value="m2m_theme_style_f75ec5ba2fb1711061e12aa62799b668">f242d9be2fb1711061e12aa62799b609</sys_update_version>
+        <sys_updated_by>nmaharjan</sys_updated_by>
+        <sys_updated_on>2023-10-14 03:12:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

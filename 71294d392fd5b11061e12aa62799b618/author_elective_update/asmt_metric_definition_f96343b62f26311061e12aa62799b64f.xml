@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_definition">
+    <asmt_metric_definition action="DELETE">
+        <display>4</display>
+        <metric display_value="New Numeric Scale">ed6343b62f26311061e12aa62799b63f</metric>
+        <normalization_input>0</normalization_input>
+        <order>4</order>
+        <selected_image/>
+        <sys_class_name>asmt_metric_definition</sys_class_name>
+        <sys_created_by>nmaharjan</sys_created_by>
+        <sys_created_on>2023-11-20 18:10:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f96343b62f26311061e12aa62799b64f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>4</sys_name>
+        <sys_package display_value="DMV" source="x_308504_dmv">71294d392fd5b11061e12aa62799b618</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DMV">71294d392fd5b11061e12aa62799b618</sys_scope>
+        <sys_update_name>asmt_metric_definition_f96343b62f26311061e12aa62799b64f</sys_update_name>
+        <sys_updated_by>nmaharjan</sys_updated_by>
+        <sys_updated_on>2023-11-20 18:10:31</sys_updated_on>
+        <unselected_image/>
+        <value>4</value>
+    </asmt_metric_definition>
+    <sys_translated_text action="DELETE" query="documentkey=f96343b62f26311061e12aa62799b64f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DMV">71294d392fd5b11061e12aa62799b618</application>
+        <file_path/>
+        <instance_id>1db582b8db7e80182f68c59705961921</instance_id>
+        <instance_name>dev99158</instance_name>
+        <name>asmt_metric_definition_f96343b62f26311061e12aa62799b64f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_definition"><asmt_metric_definition action="INSERT_OR_UPDATE"><display>4</display><metric display_value="New Numeric Scale">ed6343b62f26311061e12aa62799b63f</metric><normalization_input>0</normalization_input><order>4</order><selected_image/><sys_class_name>asmt_metric_definition</sys_class_name><sys_created_by>nmaharjan</sys_created_by><sys_created_on>2023-11-20 18:10:31</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f96343b62f26311061e12aa62799b64f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>4</sys_name><sys_package display_value="DMV" source="x_308504_dmv">71294d392fd5b11061e12aa62799b618</sys_package><sys_policy/><sys_scope display_value="DMV">71294d392fd5b11061e12aa62799b618</sys_scope><sys_update_name>asmt_metric_definition_f96343b62f26311061e12aa62799b64f</sys_update_name><sys_updated_by>nmaharjan</sys_updated_by><sys_updated_on>2023-11-20 18:10:31</sys_updated_on><unselected_image/><value>4</value></asmt_metric_definition><sys_translated_text action="delete_multiple" query="documentkey=f96343b62f26311061e12aa62799b64f"/></record_update>]]></payload>
+        <payload_hash>362070872</payload_hash>
+        <record_name>4</record_name>
+        <reverted_from/>
+        <source>3d294d392fd5b11061e12aa62799b632</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nmaharjan</sys_created_by>
+        <sys_created_on>2023-11-20 18:10:31</sys_created_on>
+        <sys_id>356343b62f26311061e12aa62799b651</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18beded44ee0000001</sys_recorded_at>
+        <sys_updated_by>nmaharjan</sys_updated_by>
+        <sys_updated_on>2023-11-20 18:10:31</sys_updated_on>
+        <type>Assessment Metric Definition</type>
+        <update_guid>3d6343b63f26311013944d5eece8b150</update_guid>
+        <update_guid_history>3d6343b63f26311013944d5eece8b150:362070872</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="4">d9611b362f66311061e12aa62799b6cc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nmaharjan</sys_created_by>
+        <sys_created_on>2023-11-20 19:11:40</sys_created_on>
+        <sys_db_object display_value="" name="asmt_metric_definition">asmt_metric_definition</sys_db_object>
+        <sys_id>35a7c35791774de89311aedfc6f35744</sys_id>
+        <sys_metadata>f96343b62f26311061e12aa62799b64f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>4</sys_name>
+        <sys_package display_value="DMV" source="x_308504_dmv">71294d392fd5b11061e12aa62799b618</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DMV">71294d392fd5b11061e12aa62799b618</sys_scope>
+        <sys_scope_delete display_value="">1a46dbecd6d54c00839a88f2b2c40000</sys_scope_delete>
+        <sys_update_name>asmt_metric_definition_f96343b62f26311061e12aa62799b64f</sys_update_name>
+        <sys_update_version display_value="asmt_metric_definition_f96343b62f26311061e12aa62799b64f">356343b62f26311061e12aa62799b651</sys_update_version>
+        <sys_updated_by>nmaharjan</sys_updated_by>
+        <sys_updated_on>2023-11-20 19:11:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

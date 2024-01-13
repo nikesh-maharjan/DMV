@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type">
+    <sys_ux_screen_type action="INSERT_OR_UPDATE">
+        <description/>
+        <name>Color Picker</name>
+        <sys_class_name>sys_ux_screen_type</sys_class_name>
+        <sys_created_by>nmaharjan</sys_created_by>
+        <sys_created_on>2023-10-14 02:43:37</sys_created_on>
+        <sys_id>e76c4d3a2fb1711061e12aa62799b660</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Color Picker</sys_name>
+        <sys_package display_value="DMV" source="x_308504_dmv">71294d392fd5b11061e12aa62799b618</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DMV">71294d392fd5b11061e12aa62799b618</sys_scope>
+        <sys_update_name>sys_ux_screen_type_e76c4d3a2fb1711061e12aa62799b660</sys_update_name>
+        <sys_updated_by>nmaharjan</sys_updated_by>
+        <sys_updated_on>2023-10-14 02:43:37</sys_updated_on>
+    </sys_ux_screen_type>
+    <sys_translated_text action="delete_multiple" query="documentkey=e76c4d3a2fb1711061e12aa62799b660"/>
+</record_update>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="8fa945792fd5b11061e12aa62799b6e6" extends="task" label="Driver License Submission" max_length="40" name="x_308504_dmv_driver_license_submission" type="collection">
+        <element function_definition="gs.info(&quot;test&quot;);&#13;&#10;glidefunction:datediff(&quot;2023-10-23 18:00:00&quot; , sys_created_on)" function_field="true" label="Open For" max_length="40" name="open_for" read_only="true" type="glide_duration"/>
+        <element label="Open For 2" max_length="40" name="open_for_2" type="glide_duration"/>
+        <element choice="1" label="stage" max_length="40" name="stage" type="workflow">
+            <choice/>
+        </element>
+    </element>
+</database>

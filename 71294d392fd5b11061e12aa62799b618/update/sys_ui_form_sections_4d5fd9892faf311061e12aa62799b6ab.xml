@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="4d5fd9892faf311061e12aa62799b6ab" sys_domain="global" table="x_308504_dmv_export_review" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>nmaharjan</sys_created_by>
+            <sys_created_on>2024-01-03 17:26:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d55f95c92faf311061e12aa62799b673</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_308504_dmv_export_review" name="x_308504_dmv_export_review" sys_domain="global" view="7964e0530a0a0b8c00ae51f470e50465">4d5fd9892faf311061e12aa62799b6ab</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_308504_dmv_export_review" sys_domain="global" view="7964e0530a0a0b8c00ae51f470e50465">195fd9892faf311061e12aa62799b6af</sys_ui_section>
+            <sys_updated_by>nmaharjan</sys_updated_by>
+            <sys_updated_on>2024-01-03 17:26:43</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>nmaharjan</sys_created_by>
+            <sys_created_on>2024-01-03 17:26:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>555f95c92faf311061e12aa62799b67c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_308504_dmv_export_review" name="x_308504_dmv_export_review" sys_domain="global" view="7964e0530a0a0b8c00ae51f470e50465">4d5fd9892faf311061e12aa62799b6ab</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_308504_dmv_export_review" sys_domain="global" view="7964e0530a0a0b8c00ae51f470e50465">915f95c92faf311061e12aa62799b679</sys_ui_section>
+            <sys_updated_by>nmaharjan</sys_updated_by>
+            <sys_updated_on>2024-01-03 17:26:43</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>nmaharjan</sys_created_by>
+            <sys_created_on>2024-01-03 17:26:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9d5f95c92faf311061e12aa62799b678</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_308504_dmv_export_review" name="x_308504_dmv_export_review" sys_domain="global" view="7964e0530a0a0b8c00ae51f470e50465">4d5fd9892faf311061e12aa62799b6ab</sys_ui_form>
+            <sys_ui_section caption="Schedule" display_value="Schedule" name="x_308504_dmv_export_review" sys_domain="global" view="7964e0530a0a0b8c00ae51f470e50465">115f95c92faf311061e12aa62799b674</sys_ui_section>
+            <sys_updated_by>nmaharjan</sys_updated_by>
+            <sys_updated_on>2024-01-03 17:26:43</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_308504_dmv_export_review</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>nmaharjan</sys_created_by>
+            <sys_created_on>2024-01-03 17:26:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4d5fd9892faf311061e12aa62799b6ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_308504_dmv_export_review</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="DMV" source="x_308504_dmv">71294d392fd5b11061e12aa62799b618</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="DMV">71294d392fd5b11061e12aa62799b618</sys_scope>
+            <sys_update_name>sys_ui_form_sections_4d5fd9892faf311061e12aa62799b6ab</sys_update_name>
+            <sys_updated_by>nmaharjan</sys_updated_by>
+            <sys_updated_on>2024-01-03 17:26:42</sys_updated_on>
+            <sys_user/>
+            <view display_value="Emergency" name="emergencyChange">7964e0530a0a0b8c00ae51f470e50465</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

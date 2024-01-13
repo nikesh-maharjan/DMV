@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="state" table="x_308504_dmv_driver_license_submission" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <name>x_308504_dmv_driver_license_submission</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>nmaharjan</sys_created_by>
+            <sys_created_on>2023-09-16 03:31:53</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>state</sys_name>
+            <sys_package display_value="DMV" source="x_308504_dmv">71294d392fd5b11061e12aa62799b618</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="DMV">71294d392fd5b11061e12aa62799b618</sys_scope>
+            <sys_update_name>sys_choice_x_308504_dmv_driver_license_submission_state</sys_update_name>
+            <sys_updated_by>nmaharjan</sys_updated_by>
+            <sys_updated_on>2023-09-16 03:31:53</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Awaiting Approval</label>
+            <language>en</language>
+            <name>x_308504_dmv_driver_license_submission</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>nmaharjan</sys_created_by>
+            <sys_created_on>2023-09-16 03:33:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fc5bc1f92fd5b11061e12aa62799b636</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>nmaharjan</sys_updated_by>
+            <sys_updated_on>2023-09-16 03:37:28</sys_updated_on>
+            <value>12</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Draft</label>
+            <language>en</language>
+            <name>x_308504_dmv_driver_license_submission</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>nmaharjan</sys_created_by>
+            <sys_created_on>2023-09-16 03:31:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>15fa0db92fd5b11061e12aa62799b693</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>nmaharjan</sys_updated_by>
+            <sys_updated_on>2023-09-16 03:37:28</sys_updated_on>
+            <value>11</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Approved</label>
+            <language>en</language>
+            <name>x_308504_dmv_driver_license_submission</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>nmaharjan</sys_created_by>
+            <sys_created_on>2023-09-16 03:37:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8f3c413d2fd5b11061e12aa62799b65f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nmaharjan</sys_updated_by>
+            <sys_updated_on>2023-09-16 03:37:28</sys_updated_on>
+            <value>13</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rejected</label>
+            <language>en</language>
+            <name>x_308504_dmv_driver_license_submission</name>
+            <sequence>14</sequence>
+            <synonyms/>
+            <sys_created_by>nmaharjan</sys_created_by>
+            <sys_created_on>2023-09-22 00:05:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>97151f232f91311061e12aa62799b636</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>nmaharjan</sys_updated_by>
+            <sys_updated_on>2023-09-22 00:14:40</sys_updated_on>
+            <value>14</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="DELETE">
+        <group/>
+        <hidden>false</hidden>
+        <name>service_portal</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>nmaharjan</sys_created_by>
+        <sys_created_on>2023-12-27 23:04:21</sys_created_on>
+        <sys_id>2a7926362f17311061e12aa62799b686</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service_portal</sys_name>
+        <sys_package display_value="DMV" source="x_308504_dmv">71294d392fd5b11061e12aa62799b618</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DMV">71294d392fd5b11061e12aa62799b618</sys_scope>
+        <sys_update_name>sys_ui_view_2a7926362f17311061e12aa62799b686</sys_update_name>
+        <sys_updated_by>nmaharjan</sys_updated_by>
+        <sys_updated_on>2023-12-27 23:04:21</sys_updated_on>
+        <title>Service_portal</title>
+        <user/>
+    </sys_ui_view>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DMV">71294d392fd5b11061e12aa62799b618</application>
+        <file_path/>
+        <instance_id>1db582b8db7e80182f68c59705961921</instance_id>
+        <instance_name>dev99158</instance_name>
+        <name>sys_ui_view_2a7926362f17311061e12aa62799b686</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view"><sys_ui_view action="INSERT_OR_UPDATE"><group/><hidden>false</hidden><name>service_portal</name><roles/><sys_class_name>sys_ui_view</sys_class_name><sys_created_by>nmaharjan</sys_created_by><sys_created_on>2023-12-27 23:04:21</sys_created_on><sys_id>2a7926362f17311061e12aa62799b686</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service_portal</sys_name><sys_package display_value="DMV" source="x_308504_dmv">71294d392fd5b11061e12aa62799b618</sys_package><sys_policy/><sys_scope display_value="DMV">71294d392fd5b11061e12aa62799b618</sys_scope><sys_update_name>sys_ui_view_2a7926362f17311061e12aa62799b686</sys_update_name><sys_updated_by>nmaharjan</sys_updated_by><sys_updated_on>2023-12-27 23:04:21</sys_updated_on><title>Service_portal</title><user/></sys_ui_view></record_update>]]></payload>
+        <payload_hash>-640449679</payload_hash>
+        <record_name>Service_portal</record_name>
+        <reverted_from/>
+        <source>3d294d392fd5b11061e12aa62799b632</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nmaharjan</sys_created_by>
+        <sys_created_on>2023-12-27 23:04:21</sys_created_on>
+        <sys_id>367926362f17311061e12aa62799b689</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cad85919b0000001</sys_recorded_at>
+        <sys_updated_by>nmaharjan</sys_updated_by>
+        <sys_updated_on>2023-12-27 23:04:21</sys_updated_on>
+        <type>UI View</type>
+        <update_guid>2e79263622173110d2a0947687917d88</update_guid>
+        <update_guid_history>2e79263622173110d2a0947687917d88:-640449679</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nmaharjan</sys_created_by>
+        <sys_created_on>2023-12-27 23:05:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_view">sys_ui_view</sys_db_object>
+        <sys_id>a1f3868d003b4580a8a0a634a9004000</sys_id>
+        <sys_metadata>2a7926362f17311061e12aa62799b686</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service_portal</sys_name>
+        <sys_package display_value="DMV" source="x_308504_dmv">71294d392fd5b11061e12aa62799b618</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DMV">71294d392fd5b11061e12aa62799b618</sys_scope>
+        <sys_scope_delete display_value="">1a46dbecd6d54c00839a88f2b2c40000</sys_scope_delete>
+        <sys_update_name>sys_ui_view_2a7926362f17311061e12aa62799b686</sys_update_name>
+        <sys_update_version display_value="sys_ui_view_2a7926362f17311061e12aa62799b686">367926362f17311061e12aa62799b689</sys_update_version>
+        <sys_updated_by>nmaharjan</sys_updated_by>
+        <sys_updated_on>2023-12-27 23:05:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Change Request" source="com.snc.change_request">68b1a076d4a3211095d7c105f1bf433d</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>nmaharjan</sys_created_by>
+        <sys_created_on>2024-01-03 15:23:46</sys_created_on>
+        <sys_id>50338d012f6f311061e12aa62799b6fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="DMV" source="x_308504_dmv">71294d392fd5b11061e12aa62799b618</sys_package>
+        <sys_updated_by>nmaharjan</sys_updated_by>
+        <sys_updated_on>2024-01-03 15:23:46</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

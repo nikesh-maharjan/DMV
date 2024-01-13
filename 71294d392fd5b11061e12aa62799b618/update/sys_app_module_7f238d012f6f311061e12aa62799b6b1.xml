@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="DMV">305fd5e02fd7b51061e12aa62799b64b</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Export Reviews</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_308504_dmv_export_review</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_308504_dmv.export_review_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>nmaharjan</sys_created_by>
+        <sys_created_on>2024-01-03 15:23:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7f238d012f6f311061e12aa62799b6b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Export Reviews</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="DMV" source="x_308504_dmv">71294d392fd5b11061e12aa62799b618</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DMV">71294d392fd5b11061e12aa62799b618</sys_scope>
+        <sys_update_name>sys_app_module_7f238d012f6f311061e12aa62799b6b1</sys_update_name>
+        <sys_updated_by>nmaharjan</sys_updated_by>
+        <sys_updated_on>2024-01-03 15:23:44</sys_updated_on>
+        <timeline_page/>
+        <title>Export Reviews</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>
