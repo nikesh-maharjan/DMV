@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rectangle_menu_item">
+    <sp_rectangle_menu_item action="DELETE">
+        <active>true</active>
+        <color>default</color>
+        <condition/>
+        <display_1>active</display_1>
+        <display_2>state</display_2>
+        <display_date/>
+        <filter/>
+        <glyph/>
+        <hint/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <label>DMV Requests</label>
+        <order>100</order>
+        <record_script><![CDATA[// only show 30 in header menu dropdown
+var max = 2;
+
+var t = data;
+t.items = [];
+t.count = 0;
+
+var link = {};
+link.title = gs.getMessage('DMV Submissions');
+link.type = 'link';
+link.href = '?id=form';
+link.items = [];
+t.items.push(link);
+
+// var u = getMyApprovals();
+// use record watchers to tell header when to update dropdown counts
+t.record_watchers = [];
+t.record_watchers.push({'table':'x_308504_dmv_driver_license_submission','filter':'active=true'});
+
+var z = new GlideRecord('x_308504_dmv_driver_license_submission');
+z.addQuery("active", true);
+z.orderByDesc('sys_updated_on');
+z.setLimit(max);
+z.query();
+while (z.next()) {
+  // add(z);
+  /**
+  var a = {};
+  a.short_description = z.short_description + "";
+  $sp.getRecordValues(a, z, 'sys_id,sys_updated_on');
+  a.number = z.getDisplayValue();
+  a.__table = z.getRecordClassName();
+  a.type = 'approval';
+  t.items.push(a);
+  t.count++;**/
+}
+
+/**
+if (t.count == 1)
+  data.badgeHint = gs.getMessage('{0} pending approval', [''+t.count]);
+else
+  data.badgeHint = gs.getMessage('{0} pending approvals', [''+t.count]);**/
+
+function add(gr) {
+  //data.count++;
+  var link = {};
+  link.title = gr.getValue("number");
+  link.type = 'link';
+  var str = "?id=form&table=" + gr.getRecordClassName();
+  str += "?sysId=" + gr.getUniqueValue();
+  gs.info("NM str: " + str);
+  link.href = '?id=form&table=' + gr.getRecordClassName() + "&sysId=" + gr.getUniqueValue();
+  data.items.push(link);
+}]]></record_script>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <sp_page display_value="form">ed5f8ec347730200ba13a5554ee49046</sp_page>
+        <sp_rectangle_menu display_value="DMV SP Header Menu">300b653a2f13311061e12aa62799b69e</sp_rectangle_menu>
+        <sp_rectangle_menu_item/>
+        <sys_class_name>sp_rectangle_menu_item</sys_class_name>
+        <sys_created_by>nmaharjan</sys_created_by>
+        <sys_created_on>2023-12-27 22:18:10</sys_created_on>
+        <sys_id>12ee9e3a2fd3311061e12aa62799b61b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DMV Requests</sys_name>
+        <sys_package display_value="DMV" source="x_308504_dmv">71294d392fd5b11061e12aa62799b618</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DMV">71294d392fd5b11061e12aa62799b618</sys_scope>
+        <sys_update_name>sp_rectangle_menu_item_12ee9e3a2fd3311061e12aa62799b61b</sys_update_name>
+        <sys_updated_by>nmaharjan</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:18:10</sys_updated_on>
+        <table>x_308504_dmv_driver_license_submission</table>
+        <type>scripted</type>
+        <url/>
+        <url_target/>
+    </sp_rectangle_menu_item>
+    <sys_translated_text action="DELETE" query="documentkey=12ee9e3a2fd3311061e12aa62799b61b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DMV">71294d392fd5b11061e12aa62799b618</application>
+        <file_path/>
+        <instance_id>1db582b8db7e80182f68c59705961921</instance_id>
+        <instance_name>dev99158</instance_name>
+        <name>sp_rectangle_menu_item_12ee9e3a2fd3311061e12aa62799b61b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_rectangle_menu_item"&gt;&lt;sp_rectangle_menu_item action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;color&gt;default&lt;/color&gt;&lt;condition/&gt;&lt;display_1&gt;active&lt;/display_1&gt;&lt;display_2&gt;state&lt;/display_2&gt;&lt;display_date/&gt;&lt;filter/&gt;&lt;glyph/&gt;&lt;hint/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;label&gt;DMV Requests&lt;/label&gt;&lt;order&gt;100&lt;/order&gt;&lt;record_script&gt;&lt;![CDATA[// only show 30 in header menu dropdown
+var max = 2;
+
+var t = data;
+t.items = [];
+t.count = 0;
+
+var link = {};
+link.title = gs.getMessage('DMV Submissions');
+link.type = 'link';
+link.href = '?id=form';
+link.items = [];
+t.items.push(link);
+
+// var u = getMyApprovals();
+// use record watchers to tell header when to update dropdown counts
+t.record_watchers = [];
+t.record_watchers.push({'table':'x_308504_dmv_driver_license_submission','filter':'active=true'});
+
+var z = new GlideRecord('x_308504_dmv_driver_license_submission');
+z.addQuery("active", true);
+z.orderByDesc('sys_updated_on');
+z.setLimit(max);
+z.query();
+while (z.next()) {
+  // add(z);
+  /**
+  var a = {};
+  a.short_description = z.short_description + "";
+  $sp.getRecordValues(a, z, 'sys_id,sys_updated_on');
+  a.number = z.getDisplayValue();
+  a.__table = z.getRecordClassName();
+  a.type = 'approval';
+  t.items.push(a);
+  t.count++;**/
+}
+
+/**
+if (t.count == 1)
+  data.badgeHint = gs.getMessage('{0} pending approval', [''+t.count]);
+else
+  data.badgeHint = gs.getMessage('{0} pending approvals', [''+t.count]);**/
+
+function add(gr) {
+  //data.count++;
+  var link = {};
+  link.title = gr.getValue("number");
+  link.type = 'link';
+  var str = "?id=form&amp;table=" + gr.getRecordClassName();
+  str += "?sysId=" + gr.getUniqueValue();
+  gs.info("NM str: " + str);
+  link.href = '?id=form&amp;table=' + gr.getRecordClassName() + "&amp;sysId=" + gr.getUniqueValue();
+  data.items.push(link);
+}]]&gt;&lt;/record_script&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description/&gt;&lt;sp_page display_value="form"&gt;ed5f8ec347730200ba13a5554ee49046&lt;/sp_page&gt;&lt;sp_rectangle_menu display_value="DMV SP Header Menu"&gt;300b653a2f13311061e12aa62799b69e&lt;/sp_rectangle_menu&gt;&lt;sp_rectangle_menu_item/&gt;&lt;sys_class_name&gt;sp_rectangle_menu_item&lt;/sys_class_name&gt;&lt;sys_created_by&gt;nmaharjan&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-27 22:18:10&lt;/sys_created_on&gt;&lt;sys_id&gt;12ee9e3a2fd3311061e12aa62799b61b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;DMV Requests&lt;/sys_name&gt;&lt;sys_package display_value="DMV" source="x_308504_dmv"&gt;71294d392fd5b11061e12aa62799b618&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="DMV"&gt;71294d392fd5b11061e12aa62799b618&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_rectangle_menu_item_12ee9e3a2fd3311061e12aa62799b61b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;nmaharjan&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-27 22:18:10&lt;/sys_updated_on&gt;&lt;table&gt;x_308504_dmv_driver_license_submission&lt;/table&gt;&lt;type&gt;scripted&lt;/type&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sp_rectangle_menu_item&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=12ee9e3a2fd3311061e12aa62799b61b"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-230695209</payload_hash>
+        <record_name>DMV Requests</record_name>
+        <reverted_from/>
+        <source>3d294d392fd5b11061e12aa62799b632</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nmaharjan</sys_created_by>
+        <sys_created_on>2023-12-27 22:18:10</sys_created_on>
+        <sys_id>d2ee9e3a2fd3311061e12aa62799b61d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cad5b4cac0000001</sys_recorded_at>
+        <sys_updated_by>nmaharjan</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:18:10</sys_updated_on>
+        <type>Menu Item</type>
+        <update_guid>daee9e3a3fd3311045f0d9fba23b5e1c</update_guid>
+        <update_guid_history>daee9e3a3fd3311045f0d9fba23b5e1c:-230695209</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="DMV Requests">642fda7a2fd3311061e12aa62799b63d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nmaharjan</sys_created_by>
+        <sys_created_on>2023-12-27 22:19:08</sys_created_on>
+        <sys_db_object display_value="" name="sp_rectangle_menu_item">sp_rectangle_menu_item</sys_db_object>
+        <sys_id>1881b26e1e41486bb5d721a28fd024e1</sys_id>
+        <sys_metadata>12ee9e3a2fd3311061e12aa62799b61b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DMV Requests</sys_name>
+        <sys_package display_value="DMV" source="x_308504_dmv">71294d392fd5b11061e12aa62799b618</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DMV">71294d392fd5b11061e12aa62799b618</sys_scope>
+        <sys_scope_delete display_value="">1a46dbecd6d54c00839a88f2b2c40000</sys_scope_delete>
+        <sys_update_name>sp_rectangle_menu_item_12ee9e3a2fd3311061e12aa62799b61b</sys_update_name>
+        <sys_update_version display_value="sp_rectangle_menu_item_12ee9e3a2fd3311061e12aa62799b61b">d2ee9e3a2fd3311061e12aa62799b61d</sys_update_version>
+        <sys_updated_by>nmaharjan</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:19:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

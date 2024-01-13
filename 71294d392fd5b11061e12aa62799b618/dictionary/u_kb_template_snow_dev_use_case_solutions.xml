@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="document_viewer_audit=all,global_search_config_handler=KnowledgeArticle,all_tables.text_index_translations=true,attachment_index=true,text_index_attachment_displayed=true,text_index_enable_idf=true,synch_attachments=true,use_document_viewer=true,text_index_filter_junk=false" audit="true" db_object_id="f6e9e9032f82311061e12aa62799b6c0" extends="kb_knowledge" label="SNOW Dev Use Case Solutions" max_length="40" name="u_kb_template_snow_dev_use_case_solutions" text_index="true" type="collection">
+        <element attributes="knowledge_custom,tinymce_toolbar2=true" default="&lt;p style=&quot;font-size:30pt;&quot;&gt;&lt;/p&gt;" label="Filed Name" max_length="8000" name="x_308504_dmv_u_kb_use_case" text_index="true" type="html"/>
+    </element>
+</database>

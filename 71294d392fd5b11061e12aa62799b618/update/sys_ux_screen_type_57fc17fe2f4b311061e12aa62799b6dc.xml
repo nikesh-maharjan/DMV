@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type">
+    <sys_ux_screen_type action="INSERT_OR_UPDATE">
+        <description/>
+        <name>DMV Form</name>
+        <sys_class_name>sys_ux_screen_type</sys_class_name>
+        <sys_created_by>nmaharjan</sys_created_by>
+        <sys_created_on>2023-12-15 16:33:42</sys_created_on>
+        <sys_id>57fc17fe2f4b311061e12aa62799b6dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DMV Form</sys_name>
+        <sys_package display_value="DMV" source="x_308504_dmv">71294d392fd5b11061e12aa62799b618</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DMV">71294d392fd5b11061e12aa62799b618</sys_scope>
+        <sys_update_name>sys_ux_screen_type_57fc17fe2f4b311061e12aa62799b6dc</sys_update_name>
+        <sys_updated_by>nmaharjan</sys_updated_by>
+        <sys_updated_on>2023-12-15 16:33:42</sys_updated_on>
+    </sys_ux_screen_type>
+    <sys_translated_text action="delete_multiple" query="documentkey=57fc17fe2f4b311061e12aa62799b6dc"/>
+</record_update>

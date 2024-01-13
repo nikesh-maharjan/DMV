@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="data_provider_question" label="Data Provider Question?" language="en" table="x_308504_dmv_export_review">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>data_provider_question</element>
+            <help/>
+            <hint/>
+            <label>Data Provider Question?</label>
+            <language>en</language>
+            <name>x_308504_dmv_export_review</name>
+            <plural>Data Provider Question?s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>nmaharjan</sys_created_by>
+            <sys_created_on>2024-01-03 20:27:59</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Data Provider Question?</sys_name>
+            <sys_package display_value="DMV" source="x_308504_dmv">71294d392fd5b11061e12aa62799b618</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="DMV">71294d392fd5b11061e12aa62799b618</sys_scope>
+            <sys_update_name>sys_documentation_x_308504_dmv_export_review_data_provider_question_en</sys_update_name>
+            <sys_updated_by>nmaharjan</sys_updated_by>
+            <sys_updated_on>2024-01-03 20:27:59</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

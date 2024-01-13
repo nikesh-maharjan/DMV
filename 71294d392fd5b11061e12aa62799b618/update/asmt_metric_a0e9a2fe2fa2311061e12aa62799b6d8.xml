@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric">
+    <asmt_metric action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <add_info_label>Additional Information</add_info_label>
+        <allow_add_info>false</allow_add_info>
+        <allow_not_applicable>false</allow_not_applicable>
+        <auto_gen>false</auto_gen>
+        <category display_value="Nikesh Survery to Test Reference List">9ce9a2fe2fa2311061e12aa62799b6d3</category>
+        <cond_question/>
+        <condition/>
+        <context/>
+        <correct_answer/>
+        <correct_answer_checkbox/>
+        <correct_answer_choice/>
+        <correct_answer_template/>
+        <correct_answer_yesno/>
+        <custom_metric/>
+        <datatype>boolean</datatype>
+        <default_value_field>sys_created_by</default_value_field>
+        <depends_on/>
+        <description/>
+        <details/>
+        <displayed_when/>
+        <displayed_when_checkbox>1</displayed_when_checkbox>
+        <displayed_when_template/>
+        <displayed_when_yesno/>
+        <duration/>
+        <field_validation/>
+        <mandatory>false</mandatory>
+        <max>1</max>
+        <max_weight/>
+        <maximum_normalization_input>false</maximum_normalization_input>
+        <method>condscript</method>
+        <metric_type display_value="Nikesh Survery to Test Reference List">80e96abe2fa2311061e12aa62799b682</metric_type>
+        <min>0</min>
+        <name>Catalog Item</name>
+        <order>100</order>
+        <plugin>com.snc.core</plugin>
+        <question>Catalog Item</question>
+        <randomize_answers>false</randomize_answers>
+        <read_only>false</read_only>
+        <reference_table>sc_cat_item</reference_table>
+        <scale>low</scale>
+        <scored>false</scored>
+        <script><![CDATA[// The following variables are available: 
+ // - primary: contains the sys_id of the assessable object to be evaluated, asmt_metric_type_list sys Id of survey
+ // - string_result: the script sets the display string value for this metric to this variable 
+ // - actual_result: the script sets the actual value for this metric to this variable 
+ // - scaled_result: the script sets the scaled value (used in calculations) for this metric to this variable 
+ // - current: current the assessment is for, eg catalog task
+
+ // For example:
+ // var gr = new GlideRecord('cmdb_ci');
+ // gr.addQuery('manufacturer', primary);
+ // gr.query();
+ // actual_result = gr.getRowCount();
+ // string_result = actual_result + '';
+ // if (actual_result &gt; 100) scaled_result = 5;
+ // else scaled_result = 1;
+
+gs.info("NM Primary: " + primary);
+gs.info("NM " + current.getUniqueValue());
+gs.info("NM Before value: " + actual_result + " Display: " + string_result);
+string_result = current.request_item.cat_item.getDisplayValue();
+actual_result = current.request_item.cat_item.toString();
+
+gs.info("NM After value: " + actual_result + " Display: " + string_result);
+string_result = "XX";
+actual_result = "xx";
+// answer = actual_result;]]></script>
+        <source_field/>
+        <string_option>short</string_option>
+        <sys_class_name>asmt_metric</sys_class_name>
+        <sys_created_by>nmaharjan</sys_created_by>
+        <sys_created_on>2023-11-20 16:19:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a0e9a2fe2fa2311061e12aa62799b6d8</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>Catalog Item</sys_name>
+        <sys_package display_value="DMV" source="x_308504_dmv">71294d392fd5b11061e12aa62799b618</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DMV">71294d392fd5b11061e12aa62799b618</sys_scope>
+        <sys_update_name>asmt_metric_a0e9a2fe2fa2311061e12aa62799b6d8</sys_update_name>
+        <sys_updated_by>nmaharjan</sys_updated_by>
+        <sys_updated_on>2023-11-21 11:05:32</sys_updated_on>
+        <template/>
+        <value_parameters/>
+        <weight>10</weight>
+    </asmt_metric>
+    <sys_translated_text action="delete_multiple" query="documentkey=a0e9a2fe2fa2311061e12aa62799b6d8"/>
+</record_update>

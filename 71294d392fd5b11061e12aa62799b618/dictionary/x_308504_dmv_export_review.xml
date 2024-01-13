@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="26030d012f6f311061e12aa62799b659" extends="change_request" label="Export Review" max_length="40" name="x_308504_dmv_export_review" type="collection">
+        <element label="Data Classified as public" max_length="40" name="data_classified_as_public" type="boolean"/>
+        <element choice="1" label="Data Provider Question?" max_length="40" name="data_provider_question" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No" value="no"/>
+                <element inactive_on_update="false" label="Yes" value="yes"/>
+            </choice>
+        </element>
+        <element choice="1" label="Require Data Provider review/comments?" max_length="40" name="require_data_provider_review_comments" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No" value="no"/>
+                <element inactive_on_update="false" label="Yes" value="yes"/>
+            </choice>
+        </element>
+    </element>
+</database>

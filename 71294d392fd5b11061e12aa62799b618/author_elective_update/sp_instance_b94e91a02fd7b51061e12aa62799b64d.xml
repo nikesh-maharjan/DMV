@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">394e91a02fd7b51061e12aa62799b64b</sp_column>
+        <sp_widget display_value="My AWS Products">182b97b60f8213003ab248dce1050e40</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>nmaharjan</sys_created_by>
+        <sys_created_on>2023-12-20 17:49:27</sys_created_on>
+        <sys_id>b94e91a02fd7b51061e12aa62799b64d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="DMV" source="x_308504_dmv">71294d392fd5b11061e12aa62799b618</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DMV">71294d392fd5b11061e12aa62799b618</sys_scope>
+        <sys_update_name>sp_instance_b94e91a02fd7b51061e12aa62799b64d</sys_update_name>
+        <sys_updated_by>nmaharjan</sys_updated_by>
+        <sys_updated_on>2023-12-20 17:49:27</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=b94e91a02fd7b51061e12aa62799b64d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DMV">71294d392fd5b11061e12aa62799b618</application>
+        <file_path/>
+        <instance_id>1db582b8db7e80182f68c59705961921</instance_id>
+        <instance_name>dev99158</instance_name>
+        <name>sp_instance_b94e91a02fd7b51061e12aa62799b64d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">394e91a02fd7b51061e12aa62799b64b</sp_column><sp_widget display_value="My AWS Products">182b97b60f8213003ab248dce1050e40</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>nmaharjan</sys_created_by><sys_created_on>2023-12-20 17:49:27</sys_created_on><sys_id>b94e91a02fd7b51061e12aa62799b64d</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="DMV" source="x_308504_dmv">71294d392fd5b11061e12aa62799b618</sys_package><sys_policy/><sys_scope display_value="DMV">71294d392fd5b11061e12aa62799b618</sys_scope><sys_update_name>sp_instance_b94e91a02fd7b51061e12aa62799b64d</sys_update_name><sys_updated_by>nmaharjan</sys_updated_by><sys_updated_on>2023-12-20 17:49:27</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=b94e91a02fd7b51061e12aa62799b64d"/></record_update>]]></payload>
+        <payload_hash>1721283227</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>3d294d392fd5b11061e12aa62799b632</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nmaharjan</sys_created_by>
+        <sys_created_on>2023-12-20 17:49:27</sys_created_on>
+        <sys_id>394e91a02fd7b51061e12aa62799b64f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c8858c37d0000001</sys_recorded_at>
+        <sys_updated_by>nmaharjan</sys_updated_by>
+        <sys_updated_on>2023-12-20 17:49:27</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>314e91a081d7b51053e4e79d659b904f</update_guid>
+        <update_guid_history>314e91a081d7b51053e4e79d659b904f:1721283227</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">516f71c72f13711061e12aa62799b689</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nmaharjan</sys_created_by>
+        <sys_created_on>2023-12-28 14:38:57</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>7ede39a478c2408695c36077e1ccd2c4</sys_id>
+        <sys_metadata>b94e91a02fd7b51061e12aa62799b64d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="DMV" source="x_308504_dmv">71294d392fd5b11061e12aa62799b618</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DMV">71294d392fd5b11061e12aa62799b618</sys_scope>
+        <sys_scope_delete display_value="">1a46dbecd6d54c00839a88f2b2c40000</sys_scope_delete>
+        <sys_update_name>sp_instance_b94e91a02fd7b51061e12aa62799b64d</sys_update_name>
+        <sys_update_version display_value="sp_instance_b94e91a02fd7b51061e12aa62799b64d">394e91a02fd7b51061e12aa62799b64f</sys_update_version>
+        <sys_updated_by>nmaharjan</sys_updated_by>
+        <sys_updated_on>2023-12-28 14:38:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

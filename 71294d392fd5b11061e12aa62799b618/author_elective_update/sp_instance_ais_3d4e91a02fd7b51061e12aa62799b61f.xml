@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_ais">
+    <sp_instance_ais action="DELETE">
+        <active>true</active>
+        <ai_search_source_filter/>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <disable_all_suggestions>false</disable_all_suggestions>
+        <glyph/>
+        <id>dmv_search</id>
+        <order>1</order>
+        <placeholder/>
+        <roles/>
+        <search_application/>
+        <search_results_configuration/>
+        <short_description/>
+        <size>lg</size>
+        <sp_column display_value="1">794e91a02fd7b51061e12aa62799b61d</sp_column>
+        <sp_widget display_value="Homepage Search">200fbd96cb20020000f8d856634c9ca1</sp_widget>
+        <spell_check_font_size>xl</spell_check_font_size>
+        <sys_class_name>sp_instance_ais</sys_class_name>
+        <sys_created_by>nmaharjan</sys_created_by>
+        <sys_created_on>2023-12-20 17:49:27</sys_created_on>
+        <sys_id>3d4e91a02fd7b51061e12aa62799b61f</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="DMV" source="x_308504_dmv">71294d392fd5b11061e12aa62799b618</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DMV">71294d392fd5b11061e12aa62799b618</sys_scope>
+        <sys_update_name>sp_instance_ais_3d4e91a02fd7b51061e12aa62799b61f</sys_update_name>
+        <sys_updated_by>nmaharjan</sys_updated_by>
+        <sys_updated_on>2023-12-28 14:22:23</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"typeahead_search": {
+		"value": "{title: \"Type\", size: \"lg\", color: \"default\"}",
+		"displayValue": "{title: \"Type\", size: \"lg\", color: \"default\"}"
+	}
+}]]></widget_parameters>
+    </sp_instance_ais>
+    <sys_translated_text action="DELETE" query="documentkey=3d4e91a02fd7b51061e12aa62799b61f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DMV">71294d392fd5b11061e12aa62799b618</application>
+        <file_path/>
+        <instance_id>1db582b8db7e80182f68c59705961921</instance_id>
+        <instance_name>dev99158</instance_name>
+        <name>sp_instance_ais_3d4e91a02fd7b51061e12aa62799b61f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_ais"&gt;&lt;sp_instance_ais action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;ai_search_source_filter/&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;disable_all_suggestions&gt;false&lt;/disable_all_suggestions&gt;&lt;glyph/&gt;&lt;id&gt;dmv_search&lt;/id&gt;&lt;order&gt;1&lt;/order&gt;&lt;placeholder/&gt;&lt;roles/&gt;&lt;search_application/&gt;&lt;search_results_configuration/&gt;&lt;short_description/&gt;&lt;size&gt;lg&lt;/size&gt;&lt;sp_column display_value="1"&gt;794e91a02fd7b51061e12aa62799b61d&lt;/sp_column&gt;&lt;sp_widget display_value="Homepage Search"&gt;200fbd96cb20020000f8d856634c9ca1&lt;/sp_widget&gt;&lt;spell_check_font_size&gt;xl&lt;/spell_check_font_size&gt;&lt;sys_class_name&gt;sp_instance_ais&lt;/sys_class_name&gt;&lt;sys_created_by&gt;nmaharjan&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-20 17:49:27&lt;/sys_created_on&gt;&lt;sys_id&gt;3d4e91a02fd7b51061e12aa62799b61f&lt;/sys_id&gt;&lt;sys_mod_count&gt;11&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="DMV" source="x_308504_dmv"&gt;71294d392fd5b11061e12aa62799b618&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="DMV"&gt;71294d392fd5b11061e12aa62799b618&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_ais_3d4e91a02fd7b51061e12aa62799b61f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;nmaharjan&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-28 14:22:23&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"typeahead_search": {
+		"value": "{title: \"Type\", size: \"lg\", color: \"default\"}",
+		"displayValue": "{title: \"Type\", size: \"lg\", color: \"default\"}"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_ais&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=3d4e91a02fd7b51061e12aa62799b61f"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1767898889</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>3d294d392fd5b11061e12aa62799b632</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nmaharjan</sys_created_by>
+        <sys_created_on>2023-12-28 14:22:23</sys_created_on>
+        <sys_id>a69bbdc32f13711061e12aa62799b6a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cb0ce10170000001</sys_recorded_at>
+        <sys_updated_by>nmaharjan</sys_updated_by>
+        <sys_updated_on>2023-12-28 14:22:23</sys_updated_on>
+        <type>Instance with Search</type>
+        <update_guid>6e9bbdc307137110e592da9322adc0a4</update_guid>
+        <update_guid_history>6e9bbdc307137110e592da9322adc0a4:-1767898889,475b39c3681371104640d20a2a1a1641:1826632525,763bfd83251371104b4e670eacd15f2d:-1327787250,422bfd833f137110331f0b86c400b129:1060426040,c81b75c3ce137110f4e62bba1aac3313:-118091098,194a798385137110c9ea99fceb853f14:-1627121101,2af9fd4394137110e8e675ae1bfc71ea:1289228202,36c9718301137110ecdee07c5037bad7:147786985,eda9f1031f137110620d42192351534f:377922518,a969b5434d13711057efbee3de184d66:-1375152456,9829f543df137110d7471fb79a0ed289:2104416934,714e91a0f5d7b510fcadf9b809c31821:795400486</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">e60eb1872f13711061e12aa62799b603</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nmaharjan</sys_created_by>
+        <sys_created_on>2023-12-28 14:33:02</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_ais">sp_instance_ais</sys_db_object>
+        <sys_id>22d3de29727d42a097a986f321169100</sys_id>
+        <sys_metadata>3d4e91a02fd7b51061e12aa62799b61f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="DMV" source="x_308504_dmv">71294d392fd5b11061e12aa62799b618</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DMV">71294d392fd5b11061e12aa62799b618</sys_scope>
+        <sys_scope_delete display_value="">1a46dbecd6d54c00839a88f2b2c40000</sys_scope_delete>
+        <sys_update_name>sp_instance_ais_3d4e91a02fd7b51061e12aa62799b61f</sys_update_name>
+        <sys_update_version display_value="sp_instance_ais_3d4e91a02fd7b51061e12aa62799b61f">a69bbdc32f13711061e12aa62799b6a5</sys_update_version>
+        <sys_updated_by>nmaharjan</sys_updated_by>
+        <sys_updated_on>2023-12-28 14:33:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
